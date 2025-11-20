@@ -38,7 +38,7 @@ app.use('/uploads/gallery', express.static(path.join(__dirname, 'uploads/gallery
 
 // ✅ Routes
 app.use('/api/booking', require('./routes/booking'));
-app.use('/api/gallery', require('./routes/Gallery'));
+app.use('/api/gallery', require('./routes/gallery'));
 app.use('/api/admin', require('./routes/admin'));
 
 // ✅ Root endpoint
